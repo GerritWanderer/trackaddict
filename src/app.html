@@ -2,11 +2,31 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<title>Trackaddict</title>
+		<meta name="description" content="A blog for all track addicted runners out there" />
+		<meta name="keywords" content="running,track,blog" />
+		<meta property="og:title" content="Trackaddict Blog" />
+		<meta property="og:url" content="https://trackaddict.dev" />
+		<meta property="og:description" content="A blog for all track addicted runners out there" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://newcss.net/_assets/og.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+		/>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<header>
+			<h1>trackaddict</h1>
+			<nav>
+				<a href="https://newcss.net">Home</a> / <a href="https://newcss.net/usage/">Blog</a> /
+				<a href="https://github.com/GerritWanderer">GitHub</a>
+			</nav>
+		</header>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
